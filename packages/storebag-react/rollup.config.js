@@ -1,7 +1,7 @@
-import babel from 'rollup-plugin-babel'
-import commonjs from 'rollup-plugin-commonjs'
-import resolve from 'rollup-plugin-node-resolve'
-import builtins from 'rollup-plugin-node-builtins'
+import babel from '@rollup/plugin-babel'
+import commonjs from '@rollup/plugin-commonjs'
+import resolve from '@rollup/plugin-node-resolve'
+// import builtins from '@rollup/plugin-node-builtins'
 
 const config = {
   input: 'readme.js',
@@ -10,7 +10,7 @@ const config = {
     'react-dom'
   ],
   plugins: [
-    builtins(),
+    // builtins(),
     babel({
       exclude: 'node_modules/**'
     }),
