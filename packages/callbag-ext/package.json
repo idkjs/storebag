@@ -4,9 +4,9 @@
   "main": "readme.js",
   "license": "MIT",
   "dependencies": {
-    "callbag-basics": "^3.0.0",
-    "callbag-behavior-subject": "^1.1.0",
+    "callbag-basics": "^4.0.0",
+    "callbag-behavior-subject": "^1.2.0",
     "callbag-drop-repeats": "^1.0.0",
-    "callbag-subject": "^1.0.2"
+    "callbag-subject": "^2.1.0"
   }
 }
